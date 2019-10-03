@@ -1,0 +1,14 @@
+test:
+	profiles:
+		env: dev
+
+	
+spring:
+	cloud:
+		port: 9080
+	uri: localhost
+		
+eureka:
+	client:
+		service-url:
+			default:  http://localhost:7001/eureka
